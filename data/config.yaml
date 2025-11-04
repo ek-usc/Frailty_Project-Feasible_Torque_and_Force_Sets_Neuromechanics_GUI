@@ -1,20 +1,34 @@
-﻿visualization:
-  figure_width: 14
-  figure_height: 8
-  animation_fps: 30
-
+colors:
+  calf: '#4169E1'
+  hip_extensors: '#8B0000'
+  hip_flexors: '#228B22'
+  quadriceps: '#FFD700'
+  stabilizers: '#9932CC'
+frailty:
+  threshold_multiplier: 1.1
 muscles:
   groups:
-    hip_extensors: [glut_max, biceps_fem_lh, semitend, semimem]
-    quadriceps: [rectus_fem, vast_lat, vast_med, vast_int]
-    calf: [gastroc_med, gastroc_lat, soleus]
-    hip_flexors: [iliacus, rectus_fem]
-
-frailty:
-  threshold_multiplier: 1.1  # times body weight
-
-colors:
-  hip_extensors: "#8B0000"
-  quadriceps: "#FFD700"
-  calf: "#4169E1"
-  hip_flexors: "#228B22"
+    calf:
+    - gastroc_med
+    - gastroc_lat
+    - soleus
+    hip_extensors:
+    - glut_max
+    - biceps_fem_lh
+    - semitend
+    - semimem
+    hip_flexors:
+    - iliacus
+    - rectus_fem
+    quadriceps:
+    - rectus_fem
+    - vast_lat
+    - vast_med
+    - vast_int
+    stabilizers:
+    - glut_med
+    - tib_ant
+visualization:
+  animation_fps: 30
+  figure_height: 8
+  figure_width: 14
