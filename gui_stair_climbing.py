@@ -18,7 +18,7 @@
 
 """
 Lower Limb Force Capacity Visualization GUI
-BME 504 Final Project - Stair Climbing Analysis
+Frailty - Stair Climbing Analysis
 """
 
 import numpy as np
