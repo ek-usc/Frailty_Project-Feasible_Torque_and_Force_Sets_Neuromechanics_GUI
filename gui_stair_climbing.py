@@ -18,7 +18,7 @@ Data structure:
 
 # Generative AI was used to provide a workflow framework and assist with coding.
 # Tool used: Gemini 3 Pro
-# Initial prompt: "[We are] trying to model the human lower limb to study the diminishing feasible output forces and parameters as a person grows elderly, framing the problem in the context of what [we] learned in class (see the attached textbook pdf), especially about torque, force, and muscle activation spaces.
+# Initial prompt: "[We are] trying to model the human lower limb to study the diminishing feasible output forces and parameters as a person grows elderly, framing the problem in the context of what [we] learned in class. . . about torque, force, and muscle activation spaces.
 # Also attached is a pdf compiling [our] research notes, resources, and tasks.
 # Describe thoroughly, the GUI producer's role, and outline their workflow steps:
 # "The other to write a script to visualize the output-figures to a video (for example, make a GUI, Users can choose muscles they interested in, then by dragging the progress bar, users can choose each leg posture, and corresponding feasible force set will appear next to the posture)."
