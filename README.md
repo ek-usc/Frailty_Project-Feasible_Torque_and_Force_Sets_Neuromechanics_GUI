@@ -1,4 +1,4 @@
-### GUI Implementation 
+# GUI Implementation 
 
 To complement the probabilistic Monte Carlo simulations, we developed a Python-based, interactive GUI to deterministically visualize the evolution of mechanical feasibility throughout the stair ascent cycle. This tool integrates posture-dependent moment arms and muscle force capacities to compute the Feasible Torque Set (FTS) in 3D joint space and projects it into the Feasible Force Set (FFS) using the pseudo-inverted, transposed, kinematic Jacobian. By calculating the Minkowski sum of active muscle generators, the GUI defines the absolute theoretical limits of force production for a specific subject model at every frame of the ascent cycle. This platform served as a "virtual laboratory" to test the robustness of the limb by selectively deactivating muscles to simulate severe focal sarcopenia, directly addressing the research question of identifying the most critical muscles for stair ascent. 
 
